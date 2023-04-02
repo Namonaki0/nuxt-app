@@ -1,25 +1,36 @@
 <template>
     <div>
-        <header class="shadow-sm bg-white">
-            <nav class="container mx-auto p-4 flex justify-between">
-                <nuxt-link to="/" class="font-bold">Nuxt App</nuxt-link>
-                <ul class="flex gap-4">
+        <header>
+            <nav>
+                <nuxt-link to="/">Nuxt App</nuxt-link>
+                <ul>
                     <li><NuxtLink to="/">Home</NuxtLink></li>
+                    <li><NuxtLink to="/products">Products</NuxtLink></li>
                     <li><NuxtLink to="/about">About</NuxtLink></li>
-                    <li><NuxtLink to="/products" class="btn">Products</NuxtLink></li>
                 </ul>
             </nav>
         </header>
 
         <!-- outputs page content -->
-        <div class="container mx-auto p-4">
+        <div>
             <slot />
         </div>
     </div>
 </template>
-
 <style scoped>
 .router-link-exact-active {
     color: #12b488
 }
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+<<<<<<< HEAD
 </style>
+=======
+</style>
+>>>>>>> 4ceab2da37befae203eea4f370e4a5c3518dc89d
