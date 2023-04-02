@@ -8,10 +8,6 @@
     </div>
 </template>
 
-<script setup>
-
-</script>
-
 <style scoped>
     h2 {
         font-size: 36px;
