@@ -29,8 +29,4 @@ ul {
 a {
     text-decoration: none;
 }
-<<<<<<< HEAD
 </style>
-=======
-</style>
->>>>>>> 4ceab2da37befae203eea4f370e4a5c3518dc89d
