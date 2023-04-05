@@ -7,6 +7,7 @@
                     <li><NuxtLink to="/">Home</NuxtLink></li>
                     <li><NuxtLink to="/about">About</NuxtLink></li>
                     <li><NuxtLink to="/products" class="btn">Products</NuxtLink></li>
+                    <!-- <li><NuxtLink to="/products/abc" class="btn">ABC Products</NuxtLink></li> -->
                 </ul>
             </nav>
         </header>
@@ -22,11 +23,4 @@
     color: #12b488
 }
 
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
 </style>
