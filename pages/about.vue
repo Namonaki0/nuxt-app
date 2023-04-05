@@ -15,11 +15,7 @@
 </script>
 
 <style scoped>
-h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
+.router-link-exact-active {
+    color: #12b488
 }
-
-p {
-    margin: 20px 0;
-}</style>
+</style>
